@@ -1,0 +1,23 @@
+.news {
+    align-content: center;
+    margin: 1em 0;
+    width: 100%;
+    list-style-type: none;
+}
+.news-item {
+    background-color: #fff;
+}
+.news-date {
+    float: right;
+    text-align: right;
+    color: #555;
+    font-size: 15pt;
+    padding: 0 1em 0 0;
+    margin-top: -2em;
+}
+.news-title a {
+    text-decoration: none;
+}
+.news-title a:hover {
+    color: #500;
+}

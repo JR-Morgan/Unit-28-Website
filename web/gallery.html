@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!-- Website Created by Jedd Morgan for Unit 28 Website Production - Assignment 3 -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Gallery - Studley College for Technology, Art &amp; Design</title>
+        <meta name="description" content="Studley college, Warwickshires number one IT Technology college leading in technology and digital arts" />
+        <meta name="keywords" content="studley, college, education, redditch, stratford, IT, school, Astwood Bank, technology, art, design, further education, warwickshire, worcestershire, apprenticeship, courses" />
+        <meta name="robots" content="index,follow" />
+        <!-- Resource Links -->
+        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="home.css" />
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" />
+        <link rel="canonical" href="/courses.html" />
+        <!-- Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+        <script type="text/javascript" src="js/scripts.js"></script>
+    </head>
+    <body onload="Init_Image_Timer(12,1)">
+        <!-- Header -->
+        <div class="header">
+            <!-- Contact Info -->
+            <div class="header-contactinfo">
+                <p>Alcester Road, Studley</p>
+                <p>Warwickshire</p>
+                <p>B80 7BG</p>
+                <p>Tel: 01527 509630</p>
+            </div>
+            <!-- Logo -->
+            <div class="header-logo">
+                <div class=header-logo-image>
+                    <a href="index.html" id="college">
+                    <img src="Logos/c/college.svg" alt="Studley College of Technology, Art & Design" title="Studley College of Technology, Art & Design"/>
+                    </a>
+                </div>
+            </div>
+            <!-- Navigation Bar -->
+            <div class="header-nav">
+                <div id="nav">
+                    <ul>
+                        <li>
+                            <div class="nav-home">
+                                <a href="index.html">Home</a>
+                                <div class="dropdown-home dropdown-content">
+                                    <a href="index.html#what-we-offer">What we offer</a>
+                                    <a href="index.html#events">What's on</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-about">
+                                <a href="about.html">About Us</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-news">
+                                <a href="news.html">Events &amp; News</a>
+                                <div class="dropdown-news dropdown-content">
+                                    <a href="news.html#newcampus">New Campus</a>
+                                    <a href="news.html#arttrip">Art Class Trip</a>
+                                    <a href="news.html#openday">Open Day</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-courses">
+                                <a href="courses.html">Courses</a>
+                                <div class="dropdown-courses dropdown-content">
+                                    <a href="courses.html#fulltime">Full time</a>
+                                    <a href="courses.html#parttime">Part time</a>
+                                    <a href="apprenticeships.html">Apprenticeships</a>
+                                    <a href="courses.html#booking">Evening Classes</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="apprenticeships.html">Apprenticeships</a></li>
+                        <li><div class="nav-employment">
+                                <a href="employment.html">Employment</a>
+                                <div class="dropdown-employment dropdown-content">
+                                    <a href="employment.html">Vacancies</a>
+                                    <a href="partners.html">Employment Partners</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <div class="header-nav-coloured">
+                            <li class="header-nav-coloured"><a href="contact.html">Contact Us</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="body-main" onload="Init_Image_Timer(12, 1);">
+            <!-- Body Content -->
+            <div class="content">
+                <!-- Image Gallery -->
+                <div id="gallery">
+                    <img id="img" src="./Images/gallery1/img4.jpg" alt="Collage images" />
+                </div>
+                <div id="navigation-arrows">
+                    <img onmouseout="this.src='Images/left.svg';" onmouseover="this.src='Images/left_h.svg';" onclick="Next_Image(12,-1);" id="left-arrow" alt="Previous Image" src="Images/left.svg">
+                    <img onmouseout="this.src='Images/right.svg';" onmouseover="this.src='Images/right_h.svg';" onclick="Next_Image(12,1);" id="right-arrow" alt="Next Image" src="Images/right.svg">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-logo_container">
+                <div class="footer-logo_container-logo">
+                    <img src="Logos/c/logo.svg" alt="Studley Colege Logo">
+                </div>
+            </div>
+            <div class="footer-container">
+                <div class="footer-item" id="footer-item-1">
+                    <h2>
+                        Quick Links
+                    </h2>
+                    <ul class="footer-list">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="sitemap.html">Site Map</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item" id="footer-item-2">
+                    <h2>
+                        <a href="courses.html">Courses</a>
+                    </h2>
+                    <ul class="footer-list">
+                        <li><a href="courses.html#fulltime">Full Time Courses</a></li>
+                        <li><a href="courses.html#parttime">Part Time Courses</a></li>
+                        <li><a href="apprenticeships.html">Apprenticeships</a></li>
+                        <li><a href="courses.html#booking">Evening Classes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item" id="footer-item-3">
+                    <h2>
+                        Find us on
+                    </h2>
+                    <div class="footer-list">
+                        <a href="https://twitter.com/GreggsOfficial">
+                        <img src="Images/socialmedia/twitter.svg"
+                            onmouseover="this.src='Images/socialmedia/twitter-h.svg';"
+                            onmouseout="this.src='Images/socialmedia/twitter.svg';"
+                            alt="Twitter">
+                        </a>
+                        <a href="https://www.facebook.com/greggsofficial">
+                        <img src="Images/socialmedia/facebook.svg"
+                            onmouseover="this.src='Images/socialmedia/facebook-h.svg';"
+                            onmouseout="this.src='Images/socialmedia/facebook.svg';"
+                            alt="Facebook">
+                        </a>
+                        <a href="https://goo.gl/szEimI">
+                        <img src="Images/socialmedia/maps.svg"
+                            onmouseover="this.src='Images/socialmedia/maps-h.svg';"
+                            onmouseout="this.src='Images/socialmedia/maps.svg';" 
+                            alt="Google Maps">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-images">
+                <ol>
+                    <li class="footer-images-item">
+                        <a href="https://www.gov.uk/government/topical-events/national-apprenticeship-week-2015"><img src="Images/footer/apprenticeships-whitoeut.png" alt="Apprenticeships"></a>
+                    </li>
+                    <li class="footer-images-item">
+                        <a href="https://www.warwickshire.gov.uk/">
+                        <img src="Images/footer/Warwickshire_County_Council.svg" alt="Warwickshire County Council">
+                        </a>
+                    </li>
+                    <li class="footer-images-item">
+                        <a href="https://reports.ofsted.gov.uk/"><img src="Images/footer/Outstanding_Colour_College.png" alt="Ofsted Outstanding 2013-2014"></a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>

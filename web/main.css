@@ -1,0 +1,239 @@
+/* Website Created by Jedd Morgan for Unit 28 Website Production - Assignment 3 */
+/*Basic Styles*/
+
+html {
+    background-color: #e6e9e9;
+    background-image: -webkit-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    background-image: linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+li {
+    list-style-type: none;
+}
+
+h1 {
+    color: #333;
+}
+
+a:hover {
+    color: #500;
+}
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+.offset {
+    margin: -50px;
+    position: absolute;
+    
+}
+p {
+    font-size: 14pt
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+/* Headder */
+.header {
+    width: 100%;
+    background-image: url("Images/bg.jpg");
+    background-color: #022;
+}
+
+.header-logo {
+    padding: 10px;
+}
+.header-logo img {
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+}
+.header-logo-image {
+    height: 100%;
+    max-width: 800px;
+    width: 100%;
+}
+.header-contactinfo p {
+    color: white;
+    text-align: right;
+    font-size: 16pt;
+    margin: 3px 1em;
+    
+}
+.header-contactinfo {
+    float: right;
+    padding: 3px;
+    margin: 1em 0 0 0;
+}
+
+#college a {
+    background-image: url(Logos/c/college.svg);
+    height: 300px;
+}
+
+.indent {
+    margin-left: 2em;
+}
+
+/* Body */
+
+body {
+    margin:  0 auto;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.content {
+    width: 75%;
+    margin: 10px auto 0 auto;
+}
+.container {
+    background-color: white;
+    padding: 20px 40px;
+}
+
+.header-nav {
+    height: 100%;
+    min-height: 50px;
+}
+
+/*Navigation Bar*/
+
+.header-nav ul {
+    margin: 0;
+    padding: 0 30px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.header-nav li {
+    float: left;
+    height: 50px;
+}
+.header-nav a:hover {
+    background-color: #777;
+}
+
+.header-nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+.header-nav li a:hover {
+    background-color: #555;
+    color: white;
+}
+.header-nav-coloured a {
+    background-color: #4CAF50;
+    color: 000;
+
+}
+.header-nav-coloured {
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 2px;
+    margin: -2px;
+}
+.nav-home:hover .dropdown-home {
+    display: block;
+}
+.nav-news:hover .dropdown-news {
+    display: block;
+}
+
+.nav-courses:hover .dropdown-courses {
+    display: block;
+}
+.nav-employment:hover .dropdown-employment {
+    display: block;
+}
+
+
+
+/* Footer */
+.footer {
+    margin: 1em 0 0 0;
+    padding: 3em;
+    background-color: #333;
+}
+.footer-logo_container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    text-align: center;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 0 0 15%;
+    padding: 3em 0;
+}
+.footer-item ul{
+    padding: 0;
+    width: 400px;
+}
+.footer-item li{
+    margin: 3px;
+}
+.footer-item h2 {
+    font-size: 26pt;
+}
+.footer-list {
+    font-size: 18pt;
+}
+.footer-list img{
+    width: 90px;
+    margin: 10px;
+}
+
+.footer-item * {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-item a:hover {
+    color: #777;
+}
+.footer-images ol{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+}
+.footer-images-item {
+    height: 90px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-images-item img {
+    height: 90px;
+    
+}
+.footer-logo_container-logo img{
+    height: 100px;
+}

@@ -1,0 +1,23 @@
+
+.apprenticeship-item {
+    margin: 0.5em 2em;
+    padding: 1em 2.5em;
+}
+.apprenticeship-item h3{
+    font-size: 19pt;
+}
+.apprenticeship-item p{
+    margin: 1em;
+}
+.company-name {
+    margin: -22px 0 17px 0;
+}
+.apprenticeship-item a{
+    color: #333;
+}
+.apprenticeship-item a:hover{
+    color: #500;
+}
+#contents {
+    margin: 0 0 5em 0;
+}

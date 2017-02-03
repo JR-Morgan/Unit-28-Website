@@ -1,0 +1,90 @@
+/* Gallery */
+
+#gallery img {
+    width: 100%;
+}
+/*Grid*/
+
+.seperator {
+    height: 10px;
+}
+.item {
+    margin: 0.5%;
+    width: 32%;
+    list-style-type: none;
+    min-width: 200px;
+}
+#grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+}
+.item-image img {
+    width: 100%;
+}
+/*Centre*/
+
+#centre-wrapper {
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+#event {
+    align-content: center;
+    margin: 0;
+    width: 95%;
+    list-style-type: none;
+    background-color: #555;
+    padding: 1em;
+}
+.event-item {
+    background-color: #fff;
+    padding: 1em 1.0em;
+}
+.centre-item {
+    width: 50%;
+}
+#centre-map {
+    width: 95%;
+    height: 100%;
+    float: right;
+}
+.event-date {
+    float: right;
+    text-align: right;
+    color: #777;
+    font-size: 11pt;
+    padding: 0 1em 0 0;
+    margin-top: -2em;
+}
+.event-title {
+    color: darkslategray;
+    font-size: 19pt;
+    font-weight: 500;
+    margin: 0 0 5px 0;
+}
+.event-title a {
+    text-decoration: none;
+    color: darkslategray;
+}
+.event-title a:hover {
+    color: #500;
+}
+.event-body {
+    font-size: 13pt;
+}
+#navigation-arrows {
+    position: absolute;
+    margin: -20% -10%;
+    width: 95%;
+}
+#left-arrow {
+    width: 10%;
+}
+#right-arrow {
+    width: 10%;
+    float: right;
+}
